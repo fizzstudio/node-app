@@ -27,3 +27,4 @@ jobs:
         npm run trypublish
       env:
         CI: true
+	GIT_TOKEN=${{ secrets.GITHUB_TOKEN }}
